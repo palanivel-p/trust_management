@@ -1,8 +1,11 @@
 <?php
-$website="https://atct.in/";
+// $website="https://atct.in/";
+$website="http://localhost/atct_web/";
 $servername = 'localhost';
-$username = 'developer_atct';
-$password = '_f4q765Oi';
+// $username = 'developer_atct';
+$username = 'root';
+$password = '';
+// $password = '_f4q765Oi';
 $dbname = 'atct';
 $conn = mysqli_connect($servername, $username, $password, $dbname);
 
